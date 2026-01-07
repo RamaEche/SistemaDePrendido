@@ -1,0 +1,7 @@
+Se usa el ESP8266MOD por eso hay que ponerle los drivers al controlador(si no lo tiene) y luego instalar la placa para el arduino IDE(hay que poner el siguiente link http://arduino.esp8266.com/stable/package_esp8266com_index.json a la parte de adicionales de tarjetas en preferencias).
+
+Hay que configurar Blynk con un boton y vincular todo el los campos de arriba.
+
+Tambien configurar el wifi wn 2.5G(no se puede con 5G).
+
+Si el ESP tiene otros dispositivos conectados(cuando la placa ya esta soldada) no va a a andar con la corriente de la pc porque el rele consume y hace que se reinie. Pero igualmente se va a poder subir el programa sin tener que dessoldar nada. Solo hay que subirlo desde la pc y probarlo con mas corriente(conectado a la pared).
